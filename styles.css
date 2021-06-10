@@ -1,77 +1,95 @@
-body{
-font-family: 'Montserrat', sans-serif;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
   font-family: 'Lato', sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-.banner-img{
+.banner-img {
   width: 90%;
   max-width: 100%;
 }
 
-.container-fluid{
+.container-fluid {
   padding: 0 5%;
 }
 
-.logo{
-width: 60%;
+.logo {
+  width: 60%;
 }
 
-.highlight{
+.highlight {
   color: #fb9300;
 }
 
-.highlight-2{
+.highlight-2 {
   color: #233e8b;
 }
 
-section{
+.card-body {
+  border-radius: 50px;
+  border: 0 solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  margin-bottom: 5%;
+}
+
+.dbg {
+width: 40%;
+height: 12%;
+position: relative;
+bottom: 14%;
+margin: 0 auto;
+background-color: blue;
+border-radius: 25px;
+z-index: -1;
+padding-bottom: 15%;
+}
+
+section {
   padding: 2%;
 }
 
-.intro-left{
+.intro-left {
   margin-top: 15%;
 }
 
-.s2, .s4, .s6, footer{
+.s2, .s4, .s6, footer {
   text-align: center;
 }
 
-h2{
+h2 {
   padding: 2%;
 }
 
-.s3{
-  background-color: #ac66cc;
+.s3 {
   padding-bottom: 2%;
+  background-color: #ac66cc;
 }
 
-
-
-.s5 img{
-width: 90%;
-max-width: 100%;
+.s5 img {
+  width: 90%;
+  max-width: 100%;
 }
 
-.s5 li{
+.s5 li {
   padding: 2%;
 }
 
-i{
+i {
   padding: 2%;
 }
 
-footer{
+footer {
   padding: 2%;
   background-color: #ac66cc;
   color: white;
